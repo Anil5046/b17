@@ -1,0 +1,23 @@
+                INDEXING   ORDERING   MUTABLE  SLICING  REPRESENATION
+
+NONE              N         Y         N             
+---------
+INT               N         Y         N  
+FLOAT             N         Y         N
+COMPLEX           N         Y         N
+BOOLEAN           N         Y         N
+----------
+STRING            Y         Y         N        Y 
+BYTES             Y         Y         N        Y
+BYTEARRAY         Y         Y         Y        Y
+LIST              Y         Y         Y        Y           []
+TUPLE             Y         Y         N        Y           ()
+RANGE             Y         Y         N        Y
+-----------
+SET               N         N         Y        N           {}
+FROZENSET         N         N         N        N 
+-----------
+DICTIONARY        N         Y         Y        N           {k:v}
+---------------------------------------------------------------
+[] -- Square/Rectangular bracket     {} --> Flower Bracket/Curly Braces
+() -- Paranthesis/Round Bracket
